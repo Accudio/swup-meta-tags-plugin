@@ -1,6 +1,6 @@
 {
   "name": "swup-meta-tags-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Update meta tags in head on swup page change",
   "main": "lib/index.js",
   "scripts": {
