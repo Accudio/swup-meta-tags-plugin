@@ -148,7 +148,7 @@ var MetaTagsPlugin = function (_Plugin) {
       var head = _this.currentHead();
       var newHead = _this.newHead();
 
-      var headTags = ['meta', 'link[itemprop]', 'link[rel="prev"]', 'link[rel="next"]', 'link[rel="canonical"]', 'link[rel="alternate"', 'link[rel="shortlink"]'].join(',');
+      var headTags = ['meta', 'link[itemprop]', 'link[rel="prev"]', 'link[rel="next"]', 'link[rel="canonical"]', 'link[rel="alternate"]', 'link[rel="shortlink"]'].join(',');
 
       _this.removeCurrent(head, headTags);
       _this.addNew(head, newHead, headTags);

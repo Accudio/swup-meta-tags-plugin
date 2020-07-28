@@ -25,7 +25,7 @@ export default class MetaTagsPlugin extends Plugin {
       'link[rel="prev"]',
       'link[rel="next"]',
       'link[rel="canonical"]',
-      'link[rel="alternate"',
+      'link[rel="alternate"]',
       'link[rel="shortlink"]'
     ].join(',')
 
